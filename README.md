@@ -1,0 +1,1 @@
+This is my second project. The goal is to recreate the design of a sample website to the best of my ability. I'll be using what I've learned about HTML, CSS, and flexbox in the previous foundation sections.
