@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open sans", sans-serif;
+}
+
+/* Header */
+.header {
+    background-color: #1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+ul.links {
+    list-style-type: none;
+    font-size: 18px;
+    display: flex;
+    gap: 20px;
+}
+
+/* Main */
+
+.main {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-left {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    width: 30%;
+    padding: 20px 0;
+}
+
+p {
+    font-size: 24px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 10px 25px;
+
+}
+
+.main-right {
+    max-width: 40%;
+    height: auto;
+    padding: 100px 30px;
+}
+
+/* Information section */
+
+
+
+/* Quote section */
+
+/* Footer */
