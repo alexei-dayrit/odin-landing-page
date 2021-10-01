@@ -1,7 +1,5 @@
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -9,7 +7,7 @@ body {
 }
 
 /* Header */
-.header {
+.header-container {
     background-color: #1f2937;
     height: 100px;
     display: flex;
@@ -36,7 +34,7 @@ ul.links {
 
 /* Main */
 
-.main {
+.main-container {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
@@ -44,19 +42,22 @@ ul.links {
 }
 
 .main-left {
-    font-size: 48px;
-    font-weight: extra-bold;
-    color: #f9faf8;
-    width: 30%;
-    padding: 20px 0;
+    width: 40%;
 }
 
-p {
+.main-header {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.main-text {
     font-size: 24px;
     color: #e5e7eb;
+    padding: 15px 0;
 }
 
-button {
+.btn-1 {
     background-color: #3882f6;
     border: none;
     border-radius: 10px;
@@ -69,13 +70,111 @@ button {
 .main-right {
     max-width: 40%;
     height: auto;
-    padding: 100px 30px;
+    padding: 40px 30px 90px 30px;
 }
 
 /* Information section */
 
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin: 35px 0;
+    text-align: center;
+}
 
+.info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 5% 20% 10%;
+}
+.info-box {    
+    text-align: center;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.info-pic {
+    width: 100%;
+    height: 175px;
+    border-radius: 10%;
+}
 
 /* Quote section */
 
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    margin: 10% 20%;
+}
+
+cite {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+/* Call to action */
+
+.cta-container {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 15%;
+}
+
+.cta-blue {
+    background-color: #3882f6;
+    padding: 50px 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.cta-header {
+    color: #f9faf8;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.cta-text {
+    color: lightgray;
+    font-size: 18px;
+}
+
+.btn-2 {
+    background-color: #3882f6;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    text-align: center;
+    width: 110px;
+    height: 35px;
+}
+
 /* Footer */
+
+.footer {
+    background-color: #1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
